@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Petti
 
-## Getting Started
+Petti는 업사이클링 기반 반려동물 브랜드/서비스를 위한 웹 프로젝트입니다.  
+브랜드 메시지, 제품 소개, 인증/로그인, 사용자 경험 중심의 UI를 기반으로  
+추후 D2C 커머스, 브랜드 스토리, 사용자 계정 기능까지 확장하는 것을 목표로 합니다.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 1. Project Goal
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 업사이클링 브랜드의 가치 전달
+- 제품 중심의 직관적인 UI/UX 제공
+- 브랜드 소개, 제품 상세, 인증/로그인 기능 구현
+- 추후 마이페이지, 주문/구매 흐름, 관리자 기능 등으로 확장 가능한 구조 설계
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 2. Core Keywords
 
-## Learn More
+- D2C
+- Upcycling
+- Pet Brand
+- Brand Storytelling
+- Product-first UI
+- Authentication
+- Scalable Frontend Architecture
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 3. Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Framework
 
-## Deploy on Vercel
+- Next.js
+- React
+- TypeScript
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Styling
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Tailwind CSS
+- Radix UI
+- class-variance-authority
+- clsx
+- tailwind-merge
+
+### UX / Interaction
+
+- motion
+- sonner
+- next-themes
+
+### Form / Input
+
+- react-hook-form
+- react-day-picker
+- input-otp
+
+### Visualization / Utility
+
+- date-fns
+- recharts
+- lucide-react
+
+---
+
+## 4. Main Features (Init Scope)
+
+- 브랜드 메인 홈 화면
+- 제품 목록 / 제품 상세 UI
+- About 브랜드 소개 페이지
+- 로그인 / 회원가입
+- 소셜 로그인 확장 고려 (Google, Kakao)
+- 반응형 UI
+- 공통 디자인 시스템 정리
